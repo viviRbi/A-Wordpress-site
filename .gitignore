@@ -1,7 +1,2 @@
 node_modules/
 wp-config.php
-wp-includes/
-wp-admin/
-wp-content/plugins/
-wp-content/upgrade/
-wp-content/uploads/

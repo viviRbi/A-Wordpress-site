@@ -137,4 +137,7 @@ function makeNotePrivate($data, $postarr){
   return $data;
 }
 add_filter('wp_insert_post_data', 'makeNotePrivate', 10, 2);
+
+// Enable auto major updates
+add_filter('allow_major_auto_core_updates','__return_true');
 ?>
